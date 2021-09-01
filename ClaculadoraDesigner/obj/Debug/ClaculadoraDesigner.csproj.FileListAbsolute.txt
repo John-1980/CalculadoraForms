@@ -1,0 +1,10 @@
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\bin\Debug\ClaculadoraDesigner.exe.config
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\bin\Debug\ClaculadoraDesigner.exe
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\bin\Debug\ClaculadoraDesigner.pdb
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.csprojAssemblyReference.cache
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.FormDesigner.resources
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.Properties.Resources.resources
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.csproj.GenerateResource.cache
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.csproj.CoreCompileInputs.cache
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.exe
+C:\Users\rogerio.teixeira\source\repos\ClaculadoraDesigner\ClaculadoraDesigner\obj\Debug\ClaculadoraDesigner.pdb
