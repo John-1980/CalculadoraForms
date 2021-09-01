@@ -77,35 +77,42 @@ namespace CalculadoraDesigner
 
         private void buttonIgual_Click(object sender, EventArgs e)
         {
-            equacao.Text = " ";
-            switch (operador)
+            try
             {
-                case "+":
-                    textBox1.Text = (valor + Double.Parse(textBox1.Text)).ToString();
-                    break;
+                equacao.Text = " ";
+                switch (operador)
+                {
+                    case "+":
+                        textBox1.Text = (valor + Double.Parse(textBox1.Text)).ToString();
+                        break;
 
-                case "-":
-                    textBox1.Text = (valor - Double.Parse(textBox1.Text)).ToString();
-                    break;
+                    case "-":
+                        textBox1.Text = (valor - Double.Parse(textBox1.Text)).ToString();
+                        break;
 
-                case "/":
-                    string result = (valor / Double.Parse(textBox1.Text)).ToString();
-                    if (result == "∞")
-                        textBox1.Text = "Erro";
-                    else
-                        textBox1.Text = result;                   
-                    break;
+                    case "/":
+                        string result = (valor / Double.Parse(textBox1.Text)).ToString();
+                        if (result == "∞")
+                            textBox1.Text = "Erro";
+                        else
+                            textBox1.Text = result;
+                        break;
 
-                case "*":
-                    textBox1.Text = (valor * Double.Parse(textBox1.Text)).ToString();
-                    break;
+                    case "*":
+                        textBox1.Text = (valor * Double.Parse(textBox1.Text)).ToString();
+                        break;
 
-                default:
-                    break;
+                    default:
+                        break;
+                }
+
+                valor = Int32.Parse(textBox1.Text);
+                operador = "";
             }
+            catch
+            {
 
-            valor = Int32.Parse(textBox1.Text);
-            operador = "";
+            }
         }
 
         private void FormDesigner_KeyPress(object sender, KeyPressEventArgs e)
