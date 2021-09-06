@@ -27,12 +27,19 @@ namespace CalculadoraDesigner
                 textBox1.Clear();
 
             acionaOperador = false;
+
             Button b = (Button)sender;
 
-            if(b.Text == ",")
+            if (b.Text == ",")
             {
                 if (!textBox1.Text.Contains(","))
                     textBox1.Text += b.Text;
+
+                if (!textBox1.Text.Contains("0") && (textBox1.Text.Length > 0))
+                    if (!textBox1.Text.Contains("1") && !textBox1.Text.Contains("2") && !textBox1.Text.Contains("3") &&
+                        !textBox1.Text.Contains("4") && !textBox1.Text.Contains("5") && !textBox1.Text.Contains("6") &&
+                        !textBox1.Text.Contains("7") && !textBox1.Text.Contains("8") && !textBox1.Text.Contains("9"))
+                        textBox1.Text = "0,";
             }
             else
                 textBox1.Text += b.Text;
